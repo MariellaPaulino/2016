@@ -1,35 +1,38 @@
 html { 
 	font-family: "Montserrat"; 
 	}
-	
-div.form {
- 	height:300px;
- 	width: 100%;
- 	border: 10px solid red;
- 	float: top left;
-}
-
-div.form_section {
- 	padding: 0;
- 	border: 10px solid #222222;
- 	float: left;
- 	}
 
 div.white_section {
-   	height: 100%;
    	background-color: white;
+   	height: 35%;
+   	border: 5px solid blue;
+   	position: relative;
    }
 
 div.gray_section {
-   	height: 100%;
+	position: relative;
    	background-color: #D3D3D3;
-   }
+   	height: 50%;
+   	border: 5px solid green;
+}
+
+div.form_section {
+	height: 5%;
+ 	padding: 15px;
+ 	float: left;
+ 	margin: 5px;
+  	border: 5px solid red;
+  	position: relative;
+}
 
 div.inner_container {
 	margin: 50px;
+	width: 75%;
+	position: absolute;
+	border: 5px solid orange;
 }
 
-div.form		
-	input style= display:inline;
-	}
+
+
+
 
