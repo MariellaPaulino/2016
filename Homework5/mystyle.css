@@ -1,35 +1,57 @@
 html { 
 	font-family: "Montserrat"; 
+	padding: 2px;
 	}
 
 div.white_section {
    	background-color: white;
-   	height: 35%;
-   	border: 5px solid blue;
    	position: relative;
+   	height: 20%;
+	/*border: 5px solid blue;*/   
    }
-
+/* QUESTION */
 div.gray_section {
 	position: relative;
    	background-color: #D3D3D3;
    	height: 50%;
-   	border: 5px solid green;
+   	/*border: 5px solid green;*/
+/* QUESTION:; in this example the text that I have within the gray section is overflowing the space.  How can I expand the container to expand as long as there is text or content? */
 }
 
 div.form_section {
-	height: 5%;
+	height: 40%;
  	padding: 15px;
  	float: left;
  	margin: 5px;
-  	border: 5px solid red;
   	position: relative;
+  	/*border: 5px solid red;*/
 }
 
+/* QUESTION: why doesn't inner container wrap all the items inside of it?*/
 div.inner_container {
 	margin: 50px;
-	width: 75%;
-	position: absolute;
-	border: 5px solid orange;
+	height: 50%;
+	width: 90%;
+	position: relative;
+	/*border: 5px solid orange;*/
+}
+
+div.column_seventy_five_percent {
+	width: 60%;
+ 	float: left;
+  	position: relative;
+  	margin: 5px;
+  	/*border: 5px solid maroon;*/
+}
+
+/*QUESTION*/
+div.column_twenty_five_percent {
+	width: 20%;
+ 	float: left;
+ 	margin: 5px;
+ 	/*border: 5px solid fuchsia;*/
+ 	/* vertical align is not working. DOn't know why?? */
+ 	/*vertical-align: top;*/
 }
 
 
